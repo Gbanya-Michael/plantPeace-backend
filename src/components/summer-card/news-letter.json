@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_summer_card_news_letters",
+  "info": {
+    "displayName": "newsLetter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "instruction": {
+      "type": "text"
+    },
+    "subscribe": {
+      "type": "string"
+    }
+  }
+}

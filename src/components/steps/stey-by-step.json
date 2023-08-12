@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_steps_stey_by_steps",
+  "info": {
+    "displayName": "steyByStep"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "stepsTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-title.sections-title"
+    }
+  }
+}

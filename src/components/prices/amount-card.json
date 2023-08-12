@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_prices_amount_cards",
+  "info": {
+    "displayName": "amountCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "currentPrice": {
+      "type": "decimal"
+    },
+    "label": {
+      "type": "string"
+    },
+    "previousPrice": {
+      "type": "decimal"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_trending_headers",
+  "info": {
+    "displayName": "header"
+  },
+  "options": {},
+  "attributes": {
+    "topic": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    }
+  }
+}

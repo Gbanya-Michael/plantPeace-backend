@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "summer_gardens",
+  "info": {
+    "singularName": "summer-garden",
+    "pluralName": "summer-gardens",
+    "displayName": "summerGarden",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gardenTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-title.sections-title"
+    },
+    "gardenCards": {
+      "displayName": "summerCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "summer-card.summer-card"
+    },
+    "newsLetter": {
+      "displayName": "newsLetter",
+      "type": "component",
+      "repeatable": false,
+      "component": "summer-card.news-letter"
+    }
+  }
+}

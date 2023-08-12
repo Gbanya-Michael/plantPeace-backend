@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_steps_image_and_texts",
+  "info": {
+    "displayName": "imageAndText"
+  },
+  "options": {},
+  "attributes": {
+    "pictures": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

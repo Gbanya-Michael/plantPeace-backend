@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cost_cards",
+  "info": {
+    "singularName": "cost-card",
+    "pluralName": "cost-cards",
+    "displayName": "costCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amountCard": {
+      "displayName": "amountCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "prices.amount-card"
+    }
+  }
+}

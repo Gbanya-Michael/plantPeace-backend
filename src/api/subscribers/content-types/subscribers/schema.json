@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribe",
+  "info": {
+    "singularName": "subscribers",
+    "pluralName": "subscribe",
+    "displayName": "subscribers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    }
+  }
+}

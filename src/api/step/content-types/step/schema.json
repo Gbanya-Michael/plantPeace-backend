@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "steps",
+  "info": {
+    "singularName": "step",
+    "pluralName": "steps",
+    "displayName": "step",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "steps": {
+      "displayName": "steyByStep",
+      "type": "component",
+      "repeatable": true,
+      "component": "steps.stey-by-step"
+    },
+    "stepsParentTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-title.sections-title"
+    },
+    "gallery": {
+      "type": "dynamiczone",
+      "components": [
+        "steps.photos",
+        "steps.image-and-message"
+      ]
+    }
+  }
+}

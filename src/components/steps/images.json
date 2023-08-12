@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_steps_image2",
+  "info": {
+    "displayName": "image5"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

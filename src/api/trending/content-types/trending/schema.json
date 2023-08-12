@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "trendings",
+  "info": {
+    "singularName": "trending",
+    "pluralName": "trendings",
+    "displayName": "trending",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trendLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.link"
+    },
+    "trendCostCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "prices.amount-card"
+    },
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "trending.header"
+    }
+  }
+}

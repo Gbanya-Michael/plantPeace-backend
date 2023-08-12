@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_hero_images",
+  "info": {
+    "displayName": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroLeft": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heroRight": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

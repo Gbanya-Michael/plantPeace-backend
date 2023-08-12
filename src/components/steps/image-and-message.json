@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_steps_image_and_messages",
+  "info": {
+    "displayName": "imageAndMessage"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "message": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

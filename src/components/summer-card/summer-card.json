@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_summer_card_summer_cards",
+  "info": {
+    "displayName": "summerCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
